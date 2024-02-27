@@ -1,0 +1,17 @@
+{
+  "name": "mdb-standard-app",
+  "version": "7.1.0",
+  "homepage": "https://mdbootstrap.com/docs/standard/",
+  "license": "MIT",
+  "description": "MDB5 Version: PRO 7.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}
