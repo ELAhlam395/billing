@@ -15,13 +15,12 @@ return new class extends Migration
     {
         Schema::create('morocco', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('location');
-            $table->string('DVS_VPS');
-            $table->integer('Added_ips');
-            $table->integer('price');
-            $table->string('status');
-            $table->string('Due_Date');
+            $table->string('provider');
+            $table->string('number_servers');
+            $table->string('VDS_VPS');
+            $table->string('price');
+            $table->string('date_payment');
+            $table->string('paid_by');
             $table->string('remarks');
             $table->timestamps();
         });

@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Morocco extends Model
+class India extends Model
 {
     use HasFactory;
     public $timestamps = false;
-    protected $table="morocco";
+    protected $table="india";
     protected $fillable = [
         'provider',
         'number_servers',
